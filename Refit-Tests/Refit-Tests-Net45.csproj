@@ -81,7 +81,7 @@
       <HintPath>..\packages\xunit.assert.2.1.0\lib\dotnet\xunit.assert.dll</HintPath>
     </Reference>
     <Reference Include="RichardSzalay.MockHttp">
-      <HintPath>..\packages\RichardSzalay.MockHttp\1.3.1\lib/net45/RichardSzalay.MockHttp.dll</HintPath>
+      <HintPath>..\packages\RichardSzalay.MockHttp.1.3.1\lib\net45\RichardSzalay.MockHttp.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
