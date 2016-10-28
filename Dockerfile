@@ -11,4 +11,6 @@ RUN nuget restore Refit.sln
 RUN xbuild Refit.sln
 
 # run the xUnit tests
+RUN xbuild Refit-Tests/Refit-Tests-Net45.csproj
+
 RUN xbuild Refit-Tests/Refit-Tests-Net45.csproj /t:GenerateRefitStubs
